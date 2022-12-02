@@ -1,0 +1,50 @@
+{
+  "name": "blinking-prompt-react",
+  "version": "0.1.9",
+  "description":"A blinking prompt animation React component",
+  "main": "BlinkingPrompt.js",
+    "keywords": [
+    "react",
+    "blinking prompt",
+    "blinking animation prompt",
+    "barcelona code school"
+  ],
+  "author": "GK3000",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
